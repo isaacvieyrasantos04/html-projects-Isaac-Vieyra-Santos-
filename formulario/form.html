@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario de contacto</title>
+    <link rel="stylesheet" href="fstile.css">
+</head>
+<body>
+    
+    <h1>Contacto</h1>
+    <div id="form">
+        <form action="">
+            <label for="nombre">Nombre completo</label>
+            <br>
+            <input type="text" name="nombre" id="nombre">
+            <br><br>
+            <label for="contraseña">Contraseña</label>
+            
+            <input type="password" name="contraseña" id="contraseña" required>
+            <br>
+            <laber for="correo">Correo</laber>
+            <input type="email" name="correo" id="correo">
+            <br><br>
+            <label for="genero">Genero</label><br>
+            <input type="radio" name="genero" id="genero">Masculino 
+            <br>
+            <input type="radio" name="genero" id="genero">No binario 
+            <br>
+            <input type="radio" name="genero" id="genero">Femenino
+            <br><br>
+
+            <label for="ciudad">Ciudad</label>
+            <select name="ciudad" id="ciudad">
+                <option value="lzc">Lázaro C.</option>
+                <option valie="mrl">Monterrey</option>
+                <option valie="mex">Hermosillo</option>
+                <option valie="gdl">Culiacan</option>
+                
+            </select>
+
+            <br><br>
+            
+            <label for="info">Da un poco de informacion sobre tí</label>
+            <textarea name="info" id="info"></textarea>
+
+            <input type="submit" value="registrar">
+            <input type="reset" value="borrar">
+
+        </form>
+    </div>
+
+</body>
+</html>

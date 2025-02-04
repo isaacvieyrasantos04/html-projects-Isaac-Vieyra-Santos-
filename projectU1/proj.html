@@ -2,38 +2,53 @@
 <html>
 <head>
         <title>SUPERSPORTS</title>
+        <link rel="stylesheet" href="proj_styles.css">
 </head>
 <body>
 
-    <section id="in">
-        <h1>SUPERSPORT BIKES</h1>
+    <nav id="menuprin">
+            <ul class="menu">
+                <li><a href="#in">INICIO</a></li>
+                <li><a href="#mod">MODELOS</a>
+                    <ul class="submenu">
+                        <li><a href="#y">YAHAMA</a></li>
+                        <li><a href="#k">KAWASAKI</a></li>
+                        <li><a href="#d">DUCATI</a></li>
+                        <li><a href="#b">BMW</a></li>
+                        <li><a href="#h">HONDA</a></li>
+                    </ul>
+                </li>
+                <li><a href="#fo">COTIZAR</a></li>
+                <li><a href="#ab">ABOUT US</a></li>
+            </ul>
+        </nav>
+
+    
+    <section>
+        <h1 style="font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; margin-top: 50px;">SUPERSPORT BIKES</h1>
     </section>
+<div id="in">
+    <div id="sec1">
     <p>
         este sitio está creado y enfocado a la presentacion y exposicion de algunos de los productos mas sobresalientes de la industria automotriz, mas concretamente en el nicho de las motocicletas. Como es de esperarse estas destacadas maquinas son de las mas potentes de su clase sobresaliendo por encima de la competencia en cuanto a tecnologias, potencia, velocidad, confiabilidad y una larga lista de características mas.
     </p>
     <p>
         Tambien podras, a demas de enterarte y aprender un poco de su historia y de sus caracteriticas tecnicas, contactarte para cotizar la que sea de tu preferencia y poder adquirir la motocicleta de tus sueños.
     </p>
+</div>
     <hr>
+    <aside><div id="sec2">
     <p>Una <strong>superbike</strong> es un tipo de motocicleta de alta potencia y rendimiento, diseñada tanto para uso en carretera como para competición. Son máquinas impresionantes que combinan tecnología de punta con un diseño aerodinámico y agresivo.</p>
     <p>Generalmente de gran cilindrada (por encima de los 1000cc) y con una potencia que puede superar los 200 caballos de fuerza. Chasis ligero y rígido, construido con materiales de alta calidad para ofrecer una gran estabilidad y precisión en la conducción. Incorporan sistemas electrónicos avanzados como control de tracción, <a href="https://www.ktm.com/es-mx/tech-guide/anti-wheelie.html">anti-wheelie</a>, modos de conducción y demas, para mejorar el rendimiento y la seguridad.</p>
+    </div></aside>
+    </div> 
     <hr>
     <h3>ALGUNAS SUPERSPORT BIKES</h3>
-    <div id="me">
-        <ol>
-            <li><a href="#y">YAHAMA YZF R1</a></li>
-            <li><a href="#k">KAWASAKI NINJA ZX10RR</a></li>
-            <li><a href="#d">DUCATI PANIGALE V4</a></li>
-            <li><a href="#b">BMW M1000RR</a></li>
-            <li><a href="#h">HONDA CBR1000RR R</a></li>
-        </ol>
-        <a href="#fo">COTIZAR</a>
-        <a href="#ab">ABOUT US</a>
-    </div>
     <br><br><br>
-    <hr>
-    <hr>
-    <div id="y">
+
+    <hr><hr>
+    <div id="y" class="cont">
+    <div class="inf">    
         <h2>YAHAMA YZF R1</h2>
         <div>
         <h3>Una Revolución en el Mundo de las Superbikes</h3>
@@ -46,8 +61,9 @@
             <p>Las últimas generaciones de la R1 han seguido evolucionando, con motores cada vez más potentes, electrónica más sofisticada y un diseño cada vez más agresivo. La R1 se ha convertido en una de las superbikes más tecnológicamente avanzadas del mercado.</p>
             <img src="r1_3.PNG" alt="yamaha r1 actualmente">
         </div>
-        <div>
+    </div>
             <br>
+    <div class="specs">
         <h3>Especificaciones</h3>
         <table border="2">
             <tr>
@@ -70,14 +86,17 @@
                 <td>499,999 MXN</td>
             </tr>
         </table>
-        </div>
         <audio controls src="ysound.mp3"></audio>
         <video controls src="yamaha.mp4"></video>
-        <a href="#in">regresar a inicio</a>
+        </div>
+        
     </div>
+        
+    </div><a href="#in">regresar a inicio</a>
     <hr>
     <hr>
-    <div id="k">
+    <div id="k" class="cont">
+    <div class="inf">
         <h2>KAWASAKI NINJA ZX10RR</h2>
         <div>
         <h3>Un poco de historia</h3>
@@ -88,8 +107,9 @@
         <img src="kzx2.png" alt="zx10r modelo 2012"><br>
         <img style="height: 800px;" src="kzx3.webp" alt="zx10r modelo 2025">
         </div>
-        <div>
+    </div>
             <br>
+    <div class="specs">
         <h3>Especificaciones</h3>
         <table border="2">
             <tr>
@@ -112,13 +132,15 @@
                 <td>419,999 MXN</td>
             </tr>
         </table>
-        </div>
         <audio controls src="ksound.mp3"></audio>
         <video controls src="kawasaki.mp4"></video>
-        <a href="#in">regresar a inicio</a>
-    </div>
+        </div>
+        
+        
+    </div><a href="#in">regresar a inicio</a>
     <hr><hr>
-    <div id="d">
+    <div id="d" class="cont">
+    <div class="inf"> 
         <h2>DUCATI PANIGALE V4</h2>
         <div>
         <h3>La Revolución del V4</h3>
@@ -128,9 +150,10 @@
         <p>El corazón de la Panigale V4 es su motor Desmosedici Stradale, una evolución directa del propulsor utilizado en MotoGP. Este motor ofrece una potencia y un par motor impresionantes, además de una banda sonora que pone los pelos de punta. El chasis monocasco de la Panigale V4 es una obra de ingeniería de alta precisión. Esta pieza única integra el motor como parte estructural, lo que contribuye a una rigidez excepcional y un peso reducido.</p>
         <p>La Panigale V4 está equipada con la última tecnología en electrónica, incluyendo control de tracción, modos de conducción, control de wheelie, cornering ABS y mucho más. El diseño de la Panigale V4 es una combinación perfecta de belleza y funcionalidad. Sus líneas agresivas y aerodinámicas la convierten en una de las motos más atractivas del mercado.</p>
         <img src="pani2.png" alt="Panigale V4 modelo actual">
+        </div>
     </div>
-        <div>
             <br>
+    <div class="specs">
         <h3>Especificaciones</h3>
         <table border="2">
             <tr>
@@ -153,13 +176,15 @@
                 <td>613,400 MXN</td>
             </tr>
         </table>
-        </div>
         <audio controls src="dsound.mp3"></audio>
         <video controls src="ducati.mp4"></video>
-        <a href="#in">regresar a inicio</a>
-    </div>
+        </div>
+        
+        
+    </div><a href="#in">regresar a inicio</a>
     <hr><hr>
-    <div id="b">
+    <div id="b" class="cont">
+    <div class="inf"> 
         <h2>BMW M1000RR</h2>
         <div>
         <p>Apoyándose en el mismo propulsor cuatro cilindros en línea (con tecnología ShiftCam y, válvulas y bielas en titanio), que su predecesora -con una potencia de 212 CV a 14.500 rpm, un par máximo de 113 Nm a 11.000 rpm y una banda de potencia muy aprovechable entre las 6.100 rpm y las 9.500- la nueva M 1000 RR ha conseguido un considerable aumento de la velocidad máxima (de 306 a 314 km/h) gracias a las importantes mejoras introducidas en su, ya de por sí avanzado, paquete aerodinámico.</p>
@@ -168,8 +193,9 @@
         <p>Junto a la variante básica, en 2023 los usuarios más exigentes podrán disfrutar de la nueva M RR M Competition. Que, junto a un acabado de pintura diferente -Blackstorm metalizado-, está equipada con el paquete M Competition. Que, entre otros elementos (GPS Laptrigger y código de activación, paquete de piezas fresadas M, paquete M Carbon, basculante anodizado natural 220 g más ligero que la variante básica, adena M Endurance con recubrimiento DLC…) introduce los tapacubos M Aero, instalados en el eje delantero, que reducen considerablemente la resistencia al aire a velocidades superiores a los 250 km/h.</p>
         <img style="height: 400px;" src="bm2.jpg" alt=""><img style="height: 400px;" src="bm3.jpg" alt="">
         </div>
-        <div>
+    </div>
         <br>
+    <div class="specs">
         <h3>Especificaciones</h3>
         <table border="2">
             <tr>
@@ -192,13 +218,15 @@
                 <td>810,200 MXN</td>
             </tr>
         </table>
-        </div>
         <audio controls src="bsound.mp3"></audio>
         <video controls src="bmw.mp4"></video>
-        <a href="#in">regresar a inicio</a>
-    </div>
+        </div>
+        
+        
+    </div><a href="#in">regresar a inicio</a>
     <hr><hr>
-    <div id="h">
+    <div id="h" class="cont">
+    <div class="inf"> 
         <h2>HONDA CBR1000RR R</h2>
         <div>
         <p>La Honda CBR1000RR es la superbike más básica de la marca japonesa de la que se comercializa una segunda versión con frenada ABS. Es una moto diseñada para disfrutar en circuito que cuenta con un potente motor de alrededor de 190 hp.</p>
@@ -208,8 +236,9 @@
         <p>En los frenos se combinan unas pinzas Tokico delante con una Nissin detrás, sin ABS salvo la versión específica con el sistema antibloqueo que comentábamos al inicio. </p>
         <img src="ho3.jpg" alt="">
         </div>
-        <div>
+    </div>
         <br>
+    <div class="specs">
         <h3>Especificaciones</h3>
         <table border="2">
             <tr>
@@ -232,11 +261,12 @@
                 <td>347,990 MXN</td>
             </tr>
         </table>
-        </div>
         <audio controls src="hsound.mp3"></audio>
         <video controls src="honda.mp4"></video>
-        <a href="#in">regresar a inicio</a>
-    </div>
+        </div>
+        
+        
+    </div><a href="#in">regresar a inicio</a>
     <hr><hr>
 
     <div id="fo">
@@ -289,6 +319,7 @@
     </div>
     <br><br><br><br><br><br><br><br>
     <hr><hr>
+    <div id="ab">
     <p><strong>EJEMPLO</strong></p>
     <p>
         Kawasaki es una corporación multinacional con más de cincuenta explotaciones (plantas de fabricación, centros de distribución y oficinas centrales de marketing y ventas) en la mayoría de las principales ciudades del mundo. Los intereses comerciales incluyen el control medioambiental y la ingeniería de plantas energéticas, maquinaria y robótica, construcción naval e ingeniería marina, ingeniería de centrales eléctricas y estructuras de acero, material rodante, aeroespacial y, por supuesto, ATV, motocicletas, vehículos “side by side” y motos de agua. Como todas las empresas, Kawasaki comenzó con un sueño y creció hasta convertirse en la gran corporación que es hoy en día.
@@ -299,14 +330,22 @@
     <p>Kawasaki Heavy Industries, Ltd. (KHI) se dedica a la construcción de sistemas de transporte para el siglo XXI y, para ello, utiliza la riqueza de conocimientos tecnológicos que ha acumulado en los últimos 120 años. La división de construcción naval ha liderado el mundo en la producción de barcos cada vez más grandes, rápidos y automatizados. Se esfuerza constantemente por encontrar formas de aumentar la eficiencia de la navegación y la fabricación de barcos, a la vez que se conserva la energía. Hasta ahora, la búsqueda ha dado lugar al desarrollo de transportistas de gas natural líquido (GNL), barcos de alta velocidad y otras tecnologías marinas orientadas al futuro.</p>
     <p>EL NOMBRE KAWASAKI
         representa una empresa tecnológica cuyas actividades abarcan desde proyectos internacionales a gran escala hasta artículos de uso cotidiano y de ocio. Y en cada paso, Kawasaki presta la máxima atención a la humanidad y al medioambiente. Los últimos 120 años de innovación han permitido a Kawasaki establecer una sólida base como empresa tecnológica líder. Ahora, la empresa está totalmente preparada para dar la bienvenida al nuevo siglo y espera desempeñar un papel de liderazgo en el avance de la humanidad y en otro siglo de innovación.</p>
-    <a href="https://www.kawasaki.com.mx/historia/">Fuente</a>
+    </div>
+        <a href="https://www.kawasaki.com.mx/historia/">Fuente</a>
     <br><br><br><br>
     <hr><hr>
     <footer>
+        <div class="datos">
         <p>ISAAC VIEYRA SANTOS</p>
         <p>ING. EN SOFTWARE</p>
         <P>MTRO. ANDRES LUNA</P>
         <P>UNIVERSIDAD POLITECNICA DE LAZARO CARDENAS</P>
+        </div>
+        <aside><div class="contact">
+            <a href="https://www.youtube.com/"><img class="logos" src="yt.PNG" alt="youtube logo">YT</a>
+            <a href="https://www.facebook.com/"><img class="logos" src="fb.PNG" alt="face logo">FB</a>
+            <a href="https://www.instagram.com/"><img class="logos" src="wap.PNG" alt="whatsapp logo">WA</a>
+        </div></aside>
     </footer>
 </body>
 </html>

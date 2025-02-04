@@ -1,0 +1,106 @@
+/* Estilos generales */
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(pat.jpg);
+    margin: 0;
+    padding: 0;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    background-color: #2d6082;
+    text-align: auto;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+/* Contenedor del formulario */
+#form {
+    background-color: #566674;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* Estilos para los campos de entrada */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #30ab38;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Estilos para los radio buttons */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Estilos para el textarea */
+textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+/* Estilos para los botones */
+input[type="submit"],
+input[type="reset"] {
+    background-color: #003cff;
+    color: #ffffff;
+    border: 1px solid #5386ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #4e90bb;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    #form {
+        padding: 15px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,138 @@
+/* Estilos generales 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#nav1 {
+    background-color: #333;
+}
+
+#me {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+#me li {
+    position: relative;
+}
+
+#me li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+#me li a:hover {
+    background-color: #555;
+}
+
+/* Submenú 
+#submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+}
+
+#submenu li a{
+    padding: 10px 15px;
+    text-align: left;
+}
+
+.menu li:hover > #submenu {
+    display: block;
+}*/
+/* Estilos generales 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#menuprin {
+    height: 55px;
+    position: absolute;
+    z-index: 10;
+    position: sticky;
+    top: 0px;
+    background-color: #424b5a;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.menu li {
+    position: relative;
+}
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.menu li a:hover {
+    background-color: #555;
+}
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    min-width: 150px;
+}
+.submenu li a {
+    padding: 10px 15px;
+    text-align: left;
+}
+.menu li:hover > .submenu {
+    display: block;
+}
+#in{
+    border-radius: 20px;
+    padding: 10px;
+    border: 2px solid #b7b7b7;
+    width: auto ;
+    margin: 10px;
+}
+#in section{
+    position: relative;
+}
+#sec1{
+    border: 2px solid #8a8a8a;
+    border-radius: 20px;
+    padding: 15px;
+    background-color: #e2e2e2;
+    width: 500px;
+}
+aside{
+    background-color: rgb(66, 68, 112);
+    width: 500px;
+    padding: 10px;
+    border: 2px solid #8a8a8a;
+    border-radius: 10px;
+    position:relative;
+}
+#sec2 p{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+}
+#sec2{
+    width: 500px;
+}*/
