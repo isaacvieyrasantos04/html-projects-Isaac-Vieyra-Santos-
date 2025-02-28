@@ -1,0 +1,87 @@
+body{
+    background-image: url(timm.PNG);
+    background-size: cover;
+    background-position: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*div{
+    background-color: #fff;
+    width: 300px;
+    height: 1000px;
+    padding: 20px;
+    margin: 50px auto;
+    border: 2px solid;
+    border-radius: 30px;
+}*/
+#bio{
+    background-color:
+    #cbb4b4;
+    /*Afecta todo el div*/
+    width: 800px;
+    height: 1100px;
+    padding: 25px;
+    margin: 50px auto;
+    /*Mueve el tamaño del div*/
+    border: 2px solid #000000;
+    border-radius: 12px;
+    /*Para editar el borde de arriba esquina*/
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+   /*Para editar los bordes masf facil*/
+    border-radius: 20px 20px 0 0;
+    /*box-shadow: 5px 5px 10px rgb(0, 0, 0);*/
+}
+div p{
+    color: rgb(55, 0, 18);
+    font-size: 1.3em;
+}
+div p span{
+    /*poniendo un <span> en el html*/
+    font-weight: 800;
+    color: aqua;
+    font-size: smaller;
+}
+h1{
+    text-shadow: 2px 2px 5px rgb(5, 80, 96);
+    color: #fff;
+}
+.aa{
+    height: 30px;
+    width: 60px;
+    text-align: center;
+text-decoration: none;
+background-color: rgb(53, 131, 83);
+color: rgb(255, 255, 255);
+display: inline-block;
+}
+#imgg{
+    height: 300px;
+    margin: 3px;
+    float: right;
+    border-radius: 66px;
+    /*box-shadow: 5px 5px 10px rgb(0, 0, 0);*/
+}
+#tabla{
+    margin: 30px;
+    width: 600px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: #000000;
+    background-color: bisque;
+}
+form{
+    border: 3px #000000;
+    border-radius: 10px;
+}
+#form{
+    margin: 20px;
+    width: 300px;
+    border-color: #000000;border: 9px;
+    border-radius: 5px;
+    background-color: rgb(175, 177, 180);
+}
+footer{
+    height: 200px;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
