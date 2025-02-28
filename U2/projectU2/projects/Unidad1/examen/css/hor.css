@@ -1,0 +1,24 @@
+table {
+    margin: 100px;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+.h{
+    border: 1px solid #666666;
+}
