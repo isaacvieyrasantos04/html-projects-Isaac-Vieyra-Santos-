@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    
+    <h1 id="titulo">hola mund</h1>
+    <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi sit soluta iste porro repudiandae sapiente. Possimus unde magnam ex illum impedit dolor rerum sint rem nam? Modi amet vel illum.</p>
+    <h2>subtitles</h2>
+
+</body>
+<script>
+
+    //seleccion por id
+    
+    let text = document.getElementById("titulo");
+    console.log(text.innerText);
+
+    //let text = document.getElementByClass("parrafo");
+    //console.log(text[0].innerText);
+    //text.innerText = "JAVASCRIT"
+
+    //let text = document.getElementsByName("h2");
+    //console.log(text[0].innerText);
+    //text[0].innerText = "javascr"
+
+    let titulo = document.getElementById("titulo");
+    titulo.style.color = "red";
+    titulo.style.fontSize = "30px";
+    titulo.style.backgroundColor = "grey";
+    document.body.style.backgroundColor = "green";
+
+    //agregando elementos
+    let nuevoparr = document.createElement("p");
+    nuevoparr.innerText = "este es un nuevo parrafo creado";
+    document.body.appendChild(nuevoparr);
+
+    //eliminar elementos
+    let borrarelem = document.querySelector(".parrafo");
+    borrarelem.body.remove();
+
+</script>
+</html>
